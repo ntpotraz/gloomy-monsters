@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'PirataOne';
+  src: url('/src/font/PirataOne.ttf');
+}
+
+.monster {
+  margin: auto;
+  padding: 10px;
+}
+
+.monsterInfo {
+  text-align: center;
+  font-family: 'PirataOne';
+  font-size: 40px;
+  background-color: rgb(77, 77, 77);
+  border-radius: 10px;
+  box-shadow: 1px 4px 15px 1px rgb(70, 70, 70);
+  margin-bottom: 0px;
+  padding: 5px;
+}
+
+.health {
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+  cursor: default;
+}
+
+.minus-button {
+  border-radius: 100%;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: #c43030;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px rgb(117, 116, 116);
+}
+
+.minus-button:active {
+  width: 28px;
+  height: 28px;
+}
+
+.plus-button {
+  border-radius: 100%;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: #94cf50;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px rgb(117, 116, 116);
+}
+
+.plus-button:active {
+  width: 28px;
+  height: 28px;
+}
+
+.statusBar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+img {
+  width: 40px;
+}
+
+.statOff {
+  filter: grayscale(100%);
+  width: 35px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.statOn {
+  filter: grayscale(0%);
+}
