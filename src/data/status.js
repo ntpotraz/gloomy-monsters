@@ -1,4 +1,4 @@
-const status = [
+const Status = [
   {
     id: 0,
     stat: 'poison',
@@ -49,4 +49,4 @@ const status = [
   },
 ];
 
-export default status;
+export default Status;

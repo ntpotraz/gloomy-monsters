@@ -3,61 +3,55 @@ import Status from '../data/status';
 import './Monster.css';
 
 const Monster = (props) => {
-  const [statArray, setStatArray] = useState(Status);
-  const [health, setHealth] = useState(10);
-
-  const handleMinusHealth = () => {
-    setHealth((oldHealth) => {
-      return oldHealth === 0 ? 0 : oldHealth - 1;
-    });
-  };
-
-  const handlePlusHealth = () => {
-    setHealth((oldHealth) => oldHealth + 1);
-  };
-
-  const handleStatusActive = (stat) => {
-    setStatArray((oldArray) =>
-      oldArray.map((updateStat) => {
-        return updateStat.id === stat.id
-          ? { ...updateStat, isActive: !updateStat.isActive }
-          : updateStat;
-      })
-    );
-  };
-
-  const statusBar = statArray.map((stat) => {
-    return (
-      <img
-        className={stat.isActive ? 'statOn' : 'statOff'}
-        key={stat.id}
-        src={`/img/icons/${stat.img}`}
-        alt={stat.stat}
-        onClick={() => {
-          handleStatusActive(stat);
-        }}
-      />
-    );
-  });
-
-  return (
-    <div className='monster'>
+  const monsterElements = props.monsters.map((mon) => (
+    <div key={mon.id}>
       <div className='monsterInfo'>
         <div>
-          <button className='minus-button' onClick={handleMinusHealth}>
-            -1
-          </button>
-          <span className='health' onClick={props.removeMonster(0)}>
-            {health}
+          <span
+            className='monsterNumber'
+            onClick={() => props.handleMonsterNumber(mon.id)}
+          >
+            {mon.number}
           </span>
-          <button className='plus-button' onClick={handlePlusHealth}>
-            +1
-          </button>
+          <div className='monsterHealth'>
+            <button
+              className='minus-button'
+              onClick={() => props.handleMinusHealth(mon.id)}
+            >
+              -1
+            </button>
+            <span
+              className='health'
+              onClick={(event) => props.removeMonster(event, mon.id)}
+            >
+              {mon.health}
+            </span>
+            <button
+              className='plus-button'
+              onClick={() => props.handlePlusHealth(mon.id)}
+            >
+              +1
+            </button>
+          </div>
         </div>
-        <div className='statusBar'>{statusBar}</div>
+        <div className='statusBar'>
+          {Status.map((stat) => {
+            return (
+              <img
+                className={mon.statusEffects[stat.id] ? 'statOn' : 'statOff'}
+                key={stat.id}
+                src={`img/icons/${stat.img}`}
+                alt={stat.stat}
+                onClick={() => props.handleStatus(mon.id, stat.id)}
+              ></img>
+            );
+          })}
+        </div>
       </div>
     </div>
-  );
+  ));
+
+  return <div className='monster'>{monsterElements}</div>;
 };
 
 export default Monster;
