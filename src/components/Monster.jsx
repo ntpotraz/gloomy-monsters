@@ -13,6 +13,12 @@ const Monster = (props) => {
           >
             {mon.number}
           </span>
+          <span
+            className={mon.isElite ? 'eliteButtonOn' : 'eliteButtonOff'}
+            onClick={() => props.handleEliteMonster(mon.id)}
+          >
+            👑
+          </span>
           <div className='monsterHealth'>
             <button
               className='minus-button'

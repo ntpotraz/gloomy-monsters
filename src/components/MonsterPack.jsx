@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import Monster from './Monster';
+import MonsterData from '../data/MonsterData.json';
 import './MonsterPack.css';
 
 const MonsterPack = () => {
   const [pack, setPack] = useState([]);
   const [slot, setSlot] = useState(0);
   const [monsterNumber, setMonsterNumber] = useState(1);
+  const [selectedMonster] = useState(MonsterData.Cave_Bear.lvl_1);
 
   const removeMonster = (event, id) => {
     event.stopPropagation();
@@ -23,7 +25,9 @@ const MonsterPack = () => {
   const createNewMonster = () => {
     const newMonster = {
       id: slot,
-      health: 10,
+      health: selectedMonster.norm.health,
+      eliteHealth: selectedMonster.elite.health,
+      isElite: false,
       number: monsterNumber,
       statusEffects: [false, false, false, false, false, false, false, false],
     };
@@ -47,7 +51,17 @@ const MonsterPack = () => {
   const handlePlusHealth = (id) => {
     setPack((oldPack) =>
       oldPack.map((mon) => {
-        if (mon.id === id) {
+        if (
+          mon.id === id &&
+          !mon.isElite &&
+          mon.health !== selectedMonster.norm.health
+        ) {
+          return { ...mon, health: mon.health + 1 };
+        } else if (
+          mon.id === id &&
+          mon.isElite &&
+          mon.health !== selectedMonster.elite.health
+        ) {
           return { ...mon, health: mon.health + 1 };
         } else {
           return mon;
@@ -100,6 +114,21 @@ const MonsterPack = () => {
     );
   };
 
+  const handleEliteMonster = (id) => {
+    setPack((oldPack) =>
+      oldPack.map((mon) => {
+        if (mon.id === id) {
+          mon.isElite // Needs to be opposite, since the boolean hasn't changed yet
+            ? (mon.health = selectedMonster.norm.health)
+            : (mon.health = selectedMonster.elite.health);
+          return { ...mon, isElite: !mon.isElite };
+        } else {
+          return mon;
+        }
+      })
+    );
+  };
+
   return (
     <div className='monsterPack'>
       <Monster
@@ -109,6 +138,7 @@ const MonsterPack = () => {
         removeMonster={removeMonster}
         handleStatus={handleStatus}
         handleMonsterNumber={handleMonsterNumber}
+        handleEliteMonster={handleEliteMonster}
       />
       <button className='spawnButton' onClick={createNewMonster}>
         +

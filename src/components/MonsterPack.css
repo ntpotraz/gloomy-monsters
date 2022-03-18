@@ -1,7 +1,13 @@
 .monsterPack {
   /* background-color: red; */
   display: grid;
+  max-width: 250px;
   padding: 30px;
+  background-color: rgb(49, 46, 42);
+  justify-self: center;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
 }
 
 .spawnButton {

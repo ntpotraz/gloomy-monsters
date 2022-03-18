@@ -35,6 +35,39 @@
 .monsterHealth {
   text-align: center;
 }
+.eliteButtonOff {
+  font-size: 12px;
+  filter: grayscale(100%);
+  position: absolute;
+  cursor: default;
+  margin-left: 140px;
+  margin-top: 5px;
+  text-align: right;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.eliteButtonOn {
+  font-size: 12px;
+  filter: grayscale(0%);
+  position: absolute;
+  cursor: default;
+  margin-left: 140px;
+  margin-top: 5px;
+  text-align: right;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
 
 .monsterNumber {
   font-size: 16px;
@@ -67,6 +100,13 @@
   font-weight: bold;
   text-align: center;
   box-shadow: 1px 1px 1px 1px rgb(117, 116, 116);
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 .minus-button:active {
@@ -85,6 +125,13 @@
   font-weight: bold;
   text-align: center;
   box-shadow: 1px 1px 1px 1px rgb(117, 116, 116);
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 .plus-button:active {
@@ -98,6 +145,13 @@
   grid-template-rows: 1fr 1fr;
   margin-top: 5px;
   margin-left: 2px;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 img {
