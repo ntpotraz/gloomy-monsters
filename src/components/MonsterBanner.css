@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'PirataOne';
+  src: url('/src/font/PirataOne.ttf');
+}
+
+.monsterBanner {
+  font-family: 'PirataOne';
+  font-size: 30px;
+  text-align: center;
+  background-color: silver;
+  position: relative;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.icon {
+  width: 100px;
+  position: absolute;
+  top: -10px;
+  transform: translate(-50%, -50%);
+}
+
+.monsterHeader {
+  color: rgb(102, 102, 102);
+  display: flex;
+  position: relative;
+}
+
+.level {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  margin-left: 13px;
+}
+
+.name {
+  padding: 0;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.stats {
+  margin: auto;
+  border-radius: 5px;
+  display: block;
+  background-color: rgb(43, 44, 44);
+}
+
+.normalInfo {
+  margin: auto;
+  padding: 0 30px;
+  font-size: 18px;
+  display: flex;
+}
+
+.normalInfo > span {
+  margin: auto;
+  padding: 0;
+  display: flex;
+}
+
+.statIcons {
+  margin: auto;
+  padding: 0 30px;
+  display: flex;
+}
+
+.statIcons > img {
+  width: 30px;
+  margin: 3px;
+  padding: 0;
+  display: block;
+  margin: 2px auto;
+}
+
+.eliteInfo {
+  margin: auto;
+  padding: 0 30px;
+  font-size: 18px;
+  display: flex;
+}
+
+.eliteInfo > span {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  color: rgb(230, 217, 44);
+}

@@ -1,6 +1,8 @@
 {
   "Ancient_Artillery": {
+    "name": "ancient artillery",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 4,
         "move": 0,
@@ -17,6 +19,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 6,
         "move": 0,
@@ -33,6 +36,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 7,
         "move": 0,
@@ -49,6 +53,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 8,
         "move": 0,
@@ -65,6 +70,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 9,
         "move": 0,
@@ -81,6 +87,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 11,
         "move": 0,
@@ -97,6 +104,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 14,
         "move": 0,
@@ -113,6 +121,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 16,
         "move": 0,
@@ -131,7 +140,9 @@
   },
 
   "Bandit_Archer": {
+    "name": "bandit archer",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 4,
         "move": 2,
@@ -148,6 +159,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 5,
         "move": 2,
@@ -164,6 +176,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 6,
         "move": 3,
@@ -180,6 +193,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 9,
         "move": 3,
@@ -196,6 +210,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 8,
         "move": 3,
@@ -212,6 +227,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 10,
         "move": 3,
@@ -228,6 +244,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 10,
         "move": 3,
@@ -244,6 +261,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 13,
         "move": 3,
@@ -262,7 +280,9 @@
   },
 
   "Bandit_Guard": {
+    "name": "bandit guard",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 5,
         "move": 2,
@@ -279,6 +299,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 6,
         "move": 3,
@@ -295,6 +316,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 6,
         "move": 3,
@@ -311,6 +333,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 9,
         "move": 3,
@@ -327,6 +350,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 10,
         "move": 4,
@@ -343,6 +367,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 11,
         "move": 4,
@@ -359,6 +384,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 14,
         "move": 4,
@@ -375,6 +401,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 16,
         "move": 5,
@@ -393,7 +420,9 @@
   },
 
   "Black_Imp": {
+    "name": "black imp",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 3,
         "move": 1,
@@ -410,6 +439,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 4,
         "move": 1,
@@ -426,6 +456,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 5,
         "move": 1,
@@ -442,6 +473,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 5,
         "move": 1,
@@ -458,6 +490,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 7,
         "move": 1,
@@ -474,6 +507,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 9,
         "move": 1,
@@ -490,6 +524,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 10,
         "move": 1,
@@ -506,6 +541,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 12,
         "move": 1,
@@ -524,7 +560,9 @@
   },
 
   "Cave_Bear": {
+    "name": "cave bear",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 7,
         "move": 3,
@@ -541,6 +579,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 9,
         "move": 3,
@@ -557,6 +596,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 11,
         "move": 4,
@@ -573,6 +613,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 13,
         "move": 4,
@@ -589,6 +630,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 16,
         "move": 4,
@@ -605,6 +647,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 17,
         "move": 5,
@@ -621,6 +664,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 19,
         "move": 5,
@@ -637,6 +681,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 22,
         "move": 5,
@@ -655,7 +700,9 @@
   },
 
   "City_Archer": {
+    "name": "city archer",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 4,
         "move": 1,
@@ -672,6 +719,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 5,
         "move": 1,
@@ -688,6 +736,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 6,
         "move": 1,
@@ -704,6 +753,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 6,
         "move": 2,
@@ -720,6 +770,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 8,
         "move": 2,
@@ -736,6 +787,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 9,
         "move": 2,
@@ -752,6 +804,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 9,
         "move": 3,
@@ -768,6 +821,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 10,
         "move": 3,
@@ -786,7 +840,9 @@
   },
 
   "City_Guard": {
+    "name": "city guard",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 5,
         "move": 2,
@@ -803,6 +859,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 5,
         "move": 2,
@@ -819,6 +876,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 7,
         "move": 2,
@@ -835,6 +893,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 8,
         "move": 2,
@@ -851,6 +910,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 9,
         "move": 3,
@@ -867,6 +927,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 10,
         "move": 3,
@@ -883,6 +944,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 11,
         "move": 3,
@@ -899,6 +961,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 13,
         "move": 3,
@@ -917,7 +980,9 @@
   },
 
   "Cultist": {
+    "name": "cultist",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 4,
         "move": 2,
@@ -934,6 +999,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 5,
         "move": 2,
@@ -950,6 +1016,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 7,
         "move": 2,
@@ -966,6 +1033,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 9,
         "move": 3,
@@ -982,6 +1050,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 10,
         "move": 3,
@@ -998,6 +1067,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 11,
         "move": 3,
@@ -1014,6 +1084,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 14,
         "move": 3,
@@ -1030,6 +1101,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 15,
         "move": 3,
@@ -1048,7 +1120,9 @@
   },
 
   "Deep_Terror": {
+    "name": "deep terror",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 3,
         "move": 0,
@@ -1065,6 +1139,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 4,
         "move": 0,
@@ -1081,6 +1156,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 4,
         "move": 0,
@@ -1097,6 +1173,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 5,
         "move": 0,
@@ -1113,6 +1190,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 6,
         "move": 0,
@@ -1129,6 +1207,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 7,
         "move": 0,
@@ -1145,6 +1224,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 8,
         "move": 0,
@@ -1161,6 +1241,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 9,
         "move": 0,
@@ -1179,7 +1260,9 @@
   },
 
   "Earth_Demon": {
+    "name": "earth demon",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 7,
         "move": 1,
@@ -1196,6 +1279,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 9,
         "move": 1,
@@ -1212,6 +1296,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 12,
         "move": 1,
@@ -1228,6 +1313,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 13,
         "move": 2,
@@ -1244,6 +1330,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 15,
         "move": 2,
@@ -1260,6 +1347,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 17,
         "move": 2,
@@ -1276,6 +1364,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 20,
         "move": 2,
@@ -1292,6 +1381,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 22,
         "move": 3,
@@ -1310,7 +1400,9 @@
   },
 
   "Flame_Demon": {
+    "name": "flame demon",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 2,
         "move": 3,
@@ -1327,6 +1419,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 2,
         "move": 3,
@@ -1343,6 +1436,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 3,
         "move": 3,
@@ -1359,6 +1453,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 3,
         "move": 3,
@@ -1375,6 +1470,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 3,
         "move": 4,
@@ -1391,6 +1487,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 4,
         "move": 4,
@@ -1407,6 +1504,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 4,
         "move": 4,
@@ -1423,6 +1521,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 5,
         "move": 4,
@@ -1441,7 +1540,9 @@
   },
 
   "Forest_Imp": {
+    "name": "forest imp",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 1,
         "move": 3,
@@ -1458,6 +1559,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 2,
         "move": 3,
@@ -1474,6 +1576,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 2,
         "move": 3,
@@ -1490,6 +1593,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 3,
         "move": 4,
@@ -1506,6 +1610,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 3,
         "move": 4,
@@ -1522,6 +1627,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 4,
         "move": 4,
@@ -1538,6 +1644,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 4,
         "move": 4,
@@ -1554,6 +1661,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 6,
         "move": 4,
@@ -1572,7 +1680,9 @@
   },
 
   "Frost_Demon": {
+    "name": "frost demon",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 5,
         "move": 2,
@@ -1589,6 +1699,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 6,
         "move": 2,
@@ -1605,6 +1716,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 7,
         "move": 3,
@@ -1621,6 +1733,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 8,
         "move": 3,
@@ -1637,6 +1750,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 10,
         "move": 3,
@@ -1653,6 +1767,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 11,
         "move": 3,
@@ -1669,6 +1784,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 12,
         "move": 3,
@@ -1685,6 +1801,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 14,
         "move": 3,
@@ -1703,7 +1820,9 @@
   },
 
   "Giant_Viper": {
+    "name": "giant viper",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 2,
         "move": 2,
@@ -1720,6 +1839,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 3,
         "move": 2,
@@ -1736,6 +1856,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 4,
         "move": 3,
@@ -1752,6 +1873,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 4,
         "move": 3,
@@ -1768,6 +1890,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 6,
         "move": 3,
@@ -1784,6 +1907,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 7,
         "move": 3,
@@ -1800,6 +1924,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 8,
         "move": 4,
@@ -1816,6 +1941,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 10,
         "move": 4,
@@ -1834,7 +1960,9 @@
   },
 
   "Harrower_Infester": {
+    "name": "harrower infester",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 6,
         "move": 2,
@@ -1851,6 +1979,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 7,
         "move": 2,
@@ -1867,6 +1996,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 8,
         "move": 2,
@@ -1883,6 +2013,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 10,
         "move": 2,
@@ -1899,6 +2030,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 12,
         "move": 3,
@@ -1915,6 +2047,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 12,
         "move": 3,
@@ -1931,6 +2064,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 15,
         "move": 3,
@@ -1947,6 +2081,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 17,
         "move": 3,
@@ -1965,7 +2100,9 @@
   },
 
   "Hound": {
+    "name": "hound",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 4,
         "move": 3,
@@ -1982,6 +2119,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 4,
         "move": 4,
@@ -1998,6 +2136,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 6,
         "move": 4,
@@ -2014,6 +2153,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 8,
         "move": 4,
@@ -2030,6 +2170,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 8,
         "move": 4,
@@ -2046,6 +2187,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 9,
         "move": 4,
@@ -2062,6 +2204,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 11,
         "move": 5,
@@ -2078,6 +2221,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 15,
         "move": 5,
@@ -2096,7 +2240,9 @@
   },
 
   "Inox_Archer": {
+    "name": "inox archer",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 5,
         "move": 2,
@@ -2113,6 +2259,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 6,
         "move": 2,
@@ -2129,6 +2276,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 8,
         "move": 2,
@@ -2145,6 +2293,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 9,
         "move": 2,
@@ -2161,6 +2310,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 10,
         "move": 3,
@@ -2177,6 +2327,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 12,
         "move": 3,
@@ -2193,6 +2344,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 12,
         "move": 3,
@@ -2209,6 +2361,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 15,
         "move": 3,
@@ -2227,7 +2380,9 @@
   },
 
   "Inox_Guard": {
+    "name": "inox guard",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 5,
         "move": 2,
@@ -2244,6 +2399,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 8,
         "move": 2,
@@ -2260,6 +2416,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 9,
         "move": 2,
@@ -2276,6 +2433,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 11,
         "move": 3,
@@ -2292,6 +2450,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 12,
         "move": 3,
@@ -2308,6 +2467,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 13,
         "move": 3,
@@ -2324,6 +2484,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 16,
         "move": 3,
@@ -2340,6 +2501,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 19,
         "move": 3,
@@ -2358,7 +2520,9 @@
   },
 
   "Inox_Shaman": {
+    "name": "inox shaman",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 4,
         "move": 1,
@@ -2375,6 +2539,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 6,
         "move": 1,
@@ -2391,6 +2556,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 7,
         "move": 2,
@@ -2407,6 +2573,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 9,
         "move": 2,
@@ -2423,6 +2590,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 10,
         "move": 2,
@@ -2439,6 +2607,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 13,
         "move": 2,
@@ -2455,6 +2624,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 15,
         "move": 3,
@@ -2471,6 +2641,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 16,
         "move": 3,
@@ -2489,7 +2660,9 @@
   },
 
   "Living_Bones": {
+    "name": "living bones",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 5,
         "move": 2,
@@ -2506,6 +2679,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 5,
         "move": 3,
@@ -2522,6 +2696,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 5,
         "move": 3,
@@ -2538,6 +2713,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 7,
         "move": 3,
@@ -2554,6 +2730,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 7,
         "move": 3,
@@ -2570,6 +2747,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 9,
         "move": 3,
@@ -2586,6 +2764,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 10,
         "move": 4,
@@ -2602,6 +2781,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 13,
         "move": 4,
@@ -2620,7 +2800,9 @@
   },
 
   "Living_Corpse": {
+    "name": "living corpse",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 5,
         "move": 1,
@@ -2637,6 +2819,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 7,
         "move": 1,
@@ -2653,6 +2836,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 9,
         "move": 1,
@@ -2669,6 +2853,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 10,
         "move": 1,
@@ -2685,6 +2870,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 11,
         "move": 2,
@@ -2701,6 +2887,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 13,
         "move": 2,
@@ -2717,6 +2904,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 14,
         "move": 2,
@@ -2733,6 +2921,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 15,
         "move": 2,
@@ -2751,7 +2940,9 @@
   },
 
   "Living_Spirit": {
+    "name": "living spirit",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 2,
         "move": 2,
@@ -2768,6 +2959,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 2,
         "move": 2,
@@ -2784,6 +2976,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 2,
         "move": 3,
@@ -2800,6 +2993,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 3,
         "move": 3,
@@ -2816,6 +3010,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 3,
         "move": 3,
@@ -2832,6 +3027,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 4,
         "move": 3,
@@ -2848,6 +3044,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 4,
         "move": 3,
@@ -2864,6 +3061,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 6,
         "move": 3,
@@ -2882,7 +3080,9 @@
   },
 
   "Lurker": {
+    "name": "lurker",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 5,
         "move": 2,
@@ -2899,6 +3099,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 7,
         "move": 2,
@@ -2915,6 +3116,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 9,
         "move": 3,
@@ -2931,6 +3133,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 10,
         "move": 3,
@@ -2947,6 +3150,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 10,
         "move": 3,
@@ -2963,6 +3167,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 11,
         "move": 3,
@@ -2979,6 +3184,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 12,
         "move": 4,
@@ -2995,6 +3201,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 14,
         "move": 4,
@@ -3013,7 +3220,9 @@
   },
 
   "Night_Demon": {
+    "name": "night demon",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 3,
         "move": 3,
@@ -3030,6 +3239,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 5,
         "move": 3,
@@ -3046,6 +3256,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 6,
         "move": 3,
@@ -3062,6 +3273,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 7,
         "move": 4,
@@ -3078,6 +3290,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 8,
         "move": 4,
@@ -3094,6 +3307,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 11,
         "move": 4,
@@ -3110,6 +3324,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 14,
         "move": 4,
@@ -3126,6 +3341,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 15,
         "move": 4,
@@ -3144,7 +3360,9 @@
   },
 
   "Ooze": {
+    "name": "ooze",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 4,
         "move": 1,
@@ -3161,6 +3379,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 5,
         "move": 1,
@@ -3177,6 +3396,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 7,
         "move": 1,
@@ -3193,6 +3413,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 8,
         "move": 1,
@@ -3209,6 +3430,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 9,
         "move": 2,
@@ -3225,6 +3447,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 10,
         "move": 2,
@@ -3241,6 +3464,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 12,
         "move": 2,
@@ -3257,6 +3481,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 14,
         "move": 2,
@@ -3275,7 +3500,9 @@
   },
 
   "Rending_Drake": {
+    "name": "rending drake",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 5,
         "move": 3,
@@ -3292,6 +3519,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 6,
         "move": 3,
@@ -3308,6 +3536,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 7,
         "move": 4,
@@ -3324,6 +3553,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 7,
         "move": 4,
@@ -3340,6 +3570,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 9,
         "move": 4,
@@ -3356,6 +3587,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 10,
         "move": 4,
@@ -3372,6 +3604,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 11,
         "move": 5,
@@ -3388,6 +3621,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 14,
         "move": 5,
@@ -3406,7 +3640,9 @@
   },
 
   "Savvas_Icestorm": {
+    "name": "savvas icestorm",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 7,
         "move": 2,
@@ -3423,6 +3659,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 10,
         "move": 2,
@@ -3439,6 +3676,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 12,
         "move": 3,
@@ -3455,6 +3693,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 12,
         "move": 3,
@@ -3471,6 +3710,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 14,
         "move": 3,
@@ -3487,6 +3727,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 16,
         "move": 3,
@@ -3503,6 +3744,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 16,
         "move": 3,
@@ -3519,6 +3761,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 17,
         "move": 4,
@@ -3537,7 +3780,9 @@
   },
 
   "Savvas_Lavaflow": {
+    "name": "savvas lavaflow",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 8,
         "move": 3,
@@ -3554,6 +3799,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 9,
         "move": 3,
@@ -3570,6 +3816,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 11,
         "move": 3,
@@ -3586,6 +3833,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 14,
         "move": 3,
@@ -3602,6 +3850,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 16,
         "move": 3,
@@ -3618,6 +3867,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 18,
         "move": 3,
@@ -3634,6 +3884,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 20,
         "move": 4,
@@ -3650,6 +3901,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 24,
         "move": 4,
@@ -3668,7 +3920,9 @@
   },
 
   "Spitting_Drake": {
+    "name": "spitting drake",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 5,
         "move": 3,
@@ -3685,6 +3939,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 6,
         "move": 3,
@@ -3701,6 +3956,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 8,
         "move": 3,
@@ -3717,6 +3973,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 8,
         "move": 3,
@@ -3733,6 +3990,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 9,
         "move": 4,
@@ -3749,6 +4007,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 12,
         "move": 4,
@@ -3765,6 +4024,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 13,
         "move": 4,
@@ -3781,6 +4041,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 16,
         "move": 4,
@@ -3799,7 +4060,9 @@
   },
 
   "Stone_Golem": {
+    "name": "stone golem",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 10,
         "move": 1,
@@ -3816,6 +4079,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 10,
         "move": 1,
@@ -3832,6 +4096,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 11,
         "move": 1,
@@ -3848,6 +4113,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 11,
         "move": 1,
@@ -3864,6 +4130,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 12,
         "move": 2,
@@ -3880,6 +4147,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 13,
         "move": 2,
@@ -3896,6 +4164,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 16,
         "move": 2,
@@ -3912,6 +4181,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 16,
         "move": 2,
@@ -3930,7 +4200,9 @@
   },
 
   "Sun_Demon": {
+    "name": "sun demon",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 5,
         "move": 2,
@@ -3947,6 +4219,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 7,
         "move": 2,
@@ -3963,6 +4236,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 9,
         "move": 2,
@@ -3979,6 +4253,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 10,
         "move": 2,
@@ -3995,6 +4270,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 11,
         "move": 3,
@@ -4011,6 +4287,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 11,
         "move": 3,
@@ -4027,6 +4304,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 12,
         "move": 3,
@@ -4043,6 +4321,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 15,
         "move": 3,
@@ -4061,7 +4340,9 @@
   },
 
   "Vermling_Scout": {
+    "name": "vermling scout",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 2,
         "move": 3,
@@ -4078,6 +4359,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 3,
         "move": 3,
@@ -4094,6 +4376,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 3,
         "move": 3,
@@ -4110,6 +4393,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 5,
         "move": 3,
@@ -4126,6 +4410,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 6,
         "move": 3,
@@ -4142,6 +4427,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 8,
         "move": 3,
@@ -4158,6 +4444,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 9,
         "move": 4,
@@ -4174,6 +4461,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 11,
         "move": 4,
@@ -4192,7 +4480,9 @@
   },
 
   "Vermling_Shaman": {
+    "name": "vermling shaman",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 2,
         "move": 2,
@@ -4209,6 +4499,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 2,
         "move": 2,
@@ -4225,6 +4516,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 3,
         "move": 2,
@@ -4241,6 +4533,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 3,
         "move": 2,
@@ -4257,6 +4550,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 3,
         "move": 3,
@@ -4273,6 +4567,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 4,
         "move": 3,
@@ -4289,6 +4584,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 5,
         "move": 3,
@@ -4305,6 +4601,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 7,
         "move": 3,
@@ -4323,7 +4620,9 @@
   },
 
   "Wind_Demon": {
+    "name": "wind demon",
     "lvl_0": {
+      "level": 0,
       "norm": {
         "health": 3,
         "move": 3,
@@ -4340,6 +4639,7 @@
       }
     },
     "lvl_1": {
+      "level": 1,
       "norm": {
         "health": 3,
         "move": 3,
@@ -4356,6 +4656,7 @@
       }
     },
     "lvl_2": {
+      "level": 2,
       "norm": {
         "health": 4,
         "move": 4,
@@ -4372,6 +4673,7 @@
       }
     },
     "lvl_3": {
+      "level": 3,
       "norm": {
         "health": 5,
         "move": 4,
@@ -4388,6 +4690,7 @@
       }
     },
     "lvl_4": {
+      "level": 4,
       "norm": {
         "health": 7,
         "move": 4,
@@ -4404,6 +4707,7 @@
       }
     },
     "lvl_5": {
+      "level": 5,
       "norm": {
         "health": 9,
         "move": 4,
@@ -4420,6 +4724,7 @@
       }
     },
     "lvl_6": {
+      "level": 6,
       "norm": {
         "health": 10,
         "move": 4,
@@ -4436,6 +4741,7 @@
       }
     },
     "lvl_7": {
+      "level": 7,
       "norm": {
         "health": 11,
         "move": 4,

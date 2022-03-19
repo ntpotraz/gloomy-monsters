@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import Monster from './Monster';
 import MonsterData from '../data/MonsterData.json';
 import './MonsterPack.css';
+import MonsterBanner from './MonsterBanner';
 
 const MonsterPack = () => {
   const [pack, setPack] = useState([]);
   const [slot, setSlot] = useState(0);
   const [monsterNumber, setMonsterNumber] = useState(1);
-  const [selectedMonster] = useState(MonsterData.Cave_Bear.lvl_1);
+  const [selectedMonster] = useState(MonsterData.Cave_Bear.lvl_4);
+  const [selectedMOnsterName] = useState(MonsterData.Cave_Bear.name);
 
   const removeMonster = (event, id) => {
     event.stopPropagation();
@@ -131,6 +133,7 @@ const MonsterPack = () => {
 
   return (
     <div className='monsterPack'>
+      <MonsterBanner monster={selectedMonster} name={selectedMOnsterName} />
       <Monster
         monsters={pack}
         handlePlusHealth={handlePlusHealth}
