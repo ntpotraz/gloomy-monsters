@@ -3,13 +3,12 @@ import Monster from './Monster';
 import MonsterData from '../data/MonsterData.json';
 import './MonsterPack.css';
 import MonsterBanner from './MonsterBanner';
-
 const MonsterPack = () => {
   const [pack, setPack] = useState([]);
   const [slot, setSlot] = useState(0);
   const [monsterNumber, setMonsterNumber] = useState(1);
-  const [selectedMonster] = useState(MonsterData.Cave_Bear.lvl_4);
-  const [selectedMOnsterName] = useState(MonsterData.Cave_Bear.name);
+  const [selectedMonster] = useState(MonsterData.Forest_Imp.lvl_4);
+  const [selectedMOnsterName] = useState(MonsterData.Forest_Imp.name);
 
   const removeMonster = (event, id) => {
     event.stopPropagation();
