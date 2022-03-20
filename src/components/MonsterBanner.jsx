@@ -6,7 +6,86 @@ const MonsterBanner = (props) => {
   const name = props.name;
 
   const isFlying = monster.norm.attr.includes('%flying%');
-  console.log(isFlying);
+
+  const normAttributes = monster.norm.attr.map((attr) => {
+    if (attr.includes(':')) {
+      const seperate = attr.split(': ');
+      const ret = seperate[0];
+      const ran = seperate[1];
+      const retNum = ret.charAt(ret.length - 1);
+      const ranNum = ran.charAt(ran.length - 1);
+
+      return (
+        <div className='normRangeRet' key={ret}>
+          <img src='img/icons/retaliate.png' alt='retIcon' />
+          <span>{': ' + retNum}</span>
+          <img src='img/icons/range.png' alt='rangeIcon' />
+          <span>{': ' + ranNum}</span>
+        </div>
+      );
+    } else if (attr.includes('%')) {
+      const type = attr.substring(1, attr.indexOf('%', 1));
+      let num = '';
+      if (/\d/.test(attr.toString())) {
+        num = ': ' + attr.charAt(attr.length - 1);
+      }
+      if (type === 'flying') return '';
+      else {
+        return (
+          <div className='normAttr' key={type}>
+            <img
+              className='attrIcon'
+              src={`img/icons/${type}.png`}
+              alt={`${type}Icon`}
+            />
+            <span className='attrNum'>{num}</span>
+          </div>
+        );
+      }
+    } else {
+      return <span key={attr}>{attr}</span>;
+    }
+  });
+
+  const eliteAttributes = monster.elite.attr.map((attr) => {
+    if (attr.includes(':')) {
+      const seperate = attr.split(': ');
+      const ret = seperate[0];
+      const ran = seperate[1];
+      const retNum = ret.charAt(ret.length - 1);
+      const ranNum = ran.charAt(ran.length - 1);
+
+      return (
+        <div className='eliteRangeRet' key={ret}>
+          <span>{ranNum + ' :'}</span>
+          <img src='img/icons/range.png' alt='rangeIcon' />
+          <span>{retNum + ' :'}</span>
+          <img src='img/icons/retaliate.png' alt='retIcon' />
+        </div>
+      );
+    } else if (attr.includes('%')) {
+      const type = attr.substring(1, attr.indexOf('%', 1));
+      let num = '';
+      if (/\d/.test(attr.toString())) {
+        num = attr.charAt(attr.length - 1) + ' :';
+      }
+      if (type === 'flying') return '';
+      else {
+        return (
+          <div className='eliteAttr' key={type}>
+            <span className='attrNum'>{num}</span>
+            <img
+              className='attrIcon'
+              src={`img/icons/${type}.png`}
+              alt={`${type}Icon`}
+            />
+          </div>
+        );
+      }
+    } else {
+      return <span key={attr}>{attr}</span>;
+    }
+  });
 
   return (
     <div className='monsterBanner'>
@@ -16,12 +95,16 @@ const MonsterBanner = (props) => {
           <h2 className='level'>{monster.level}</h2>
           <h3 className='name'>{name.toUpperCase()}</h3>
           {isFlying && (
-            <img className='flying' src='img/icons/push.png' alt='flyingicon' />
+            <img
+              className='flying'
+              src='img/icons/flyIcon.png'
+              alt='flyingicon'
+            />
           )}
         </div>
       </div>
       <div className='stats'>
-        <div className='attr'>{monster.norm.attr}</div>
+        <div className='attr'>{normAttributes}</div>
         <div className='numbers'>
           <div className='normalInfo'>
             <p>{monster.norm.health}</p>
@@ -42,7 +125,7 @@ const MonsterBanner = (props) => {
             <p>{monster.elite.range}</p>
           </div>
         </div>
-        <div className='attr'>{monster.elite.attr}</div>
+        <div className='attr'>{eliteAttributes}</div>
       </div>
     </div>
   );

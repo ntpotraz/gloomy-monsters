@@ -16,8 +16,8 @@ const Status = [
   },
   {
     id: 3,
-    stat: 'disharm',
-    img: 'disharm.png',
+    stat: 'disarm',
+    img: 'disarm.png',
   },
   {
     id: 4,

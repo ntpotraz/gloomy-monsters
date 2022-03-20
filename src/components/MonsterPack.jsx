@@ -7,8 +7,10 @@ const MonsterPack = () => {
   const [pack, setPack] = useState([]);
   const [slot, setSlot] = useState(0);
   const [monsterNumber, setMonsterNumber] = useState(1);
-  const [selectedMonster] = useState(MonsterData.Forest_Imp.lvl_4);
-  const [selectedMOnsterName] = useState(MonsterData.Forest_Imp.name);
+  // const [selectedMonster] = useState(MonsterData.Wind_Demon.lvl_7);
+  // const [selectedMOnsterName] = useState(MonsterData.Sun_Demon.name);
+  const selectedMonster = MonsterData.Lurker.lvl_7;
+  const selectedMonsterName = MonsterData.Lurker.name;
 
   const removeMonster = (event, id) => {
     event.stopPropagation();
@@ -132,7 +134,7 @@ const MonsterPack = () => {
 
   return (
     <div className='monsterPack'>
-      <MonsterBanner monster={selectedMonster} name={selectedMOnsterName} />
+      <MonsterBanner monster={selectedMonster} name={selectedMonsterName} />
       <Monster
         monsters={pack}
         handlePlusHealth={handlePlusHealth}
