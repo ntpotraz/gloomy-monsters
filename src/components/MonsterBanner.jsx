@@ -104,7 +104,7 @@ const MonsterBanner = (props) => {
         </div>
       </div>
       <div className='stats'>
-        <div className='attr'>{normAttributes}</div>
+        <div className='normAttributes'>{normAttributes}</div>
         <div className='numbers'>
           <div className='normalInfo'>
             <p>{monster.norm.health}</p>
@@ -125,7 +125,7 @@ const MonsterBanner = (props) => {
             <p>{monster.elite.range}</p>
           </div>
         </div>
-        <div className='attr'>{eliteAttributes}</div>
+        <div className='eliteAttributes'>{eliteAttributes}</div>
       </div>
     </div>
   );

@@ -3,14 +3,14 @@ import Monster from './Monster';
 import MonsterData from '../data/MonsterData.json';
 import './MonsterPack.css';
 import MonsterBanner from './MonsterBanner';
-const MonsterPack = () => {
+const MonsterPack = (props) => {
   const [pack, setPack] = useState([]);
   const [slot, setSlot] = useState(0);
   const [monsterNumber, setMonsterNumber] = useState(1);
   // const [selectedMonster] = useState(MonsterData.Wind_Demon.lvl_7);
   // const [selectedMOnsterName] = useState(MonsterData.Sun_Demon.name);
-  const selectedMonster = MonsterData.Lurker.lvl_7;
-  const selectedMonsterName = MonsterData.Lurker.name;
+  const selectedMonster = props.monster[props.level];
+  const selectedMonsterName = props.monster.name;
 
   const removeMonster = (event, id) => {
     event.stopPropagation();
