@@ -10,10 +10,6 @@ const AddMonster = (props) => {
 
   const [searchList, setSearchList] = useState(monsterNameList);
 
-  const handleClick = (e) => {
-    console.log(e.target.innerText);
-  };
-
   const monsterList = searchList.map((monster) => {
     return (
       <li onClick={() => props.addDeck(monster)} key={monster}>
@@ -23,7 +19,6 @@ const AddMonster = (props) => {
   });
 
   const handleInput = (e) => {
-    console.log(e.target.value.toLowerCase());
     setSearchList(
       monsterNameList.filter((monster) => {
         return monster.toLowerCase().includes(e.target.value.toLowerCase());
