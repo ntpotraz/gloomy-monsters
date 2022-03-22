@@ -46,7 +46,7 @@ const Monster = (props) => {
               <img
                 className={mon.statusEffects[stat.id] ? 'statOn' : 'statOff'}
                 key={stat.id}
-                src={`gloomy-monsters/img/icons/${stat.img}`}
+                src={`img/icons/${stat.img}`}
                 alt={stat.stat}
                 onClick={() => props.handleStatus(mon.id, stat.id)}
               ></img>
