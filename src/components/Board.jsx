@@ -1,24 +1,62 @@
-import React from 'react';
+import React, { useState } from 'react';
 import MonsterData from '../data/MonsterData.json';
 import MonsterPack from './MonsterPack';
+import AddMonster from './AddMonster';
+import './Board.css';
 
 const Board = () => {
   const scenarioLevel = 'lvl_4';
+  const [monsterLevel, setMonsterLevel] = useState(0);
+  const [monsterDecks, setMonsterDecks] = useState([]);
 
-  const monsterDecks = [
+  const addNewDeck = (name) => {
+    const monster = name.replace(' ', '_');
+    console.log(monster);
+    setMonsterDecks((oldDeck) => [...oldDeck, MonsterData[monster]]);
+  };
+
+  const handleMonsterLevel = () => {
+    setMonsterLevel((oldLevel) => oldLevel + 1);
+    if (monsterLevel > 6) {
+      setMonsterLevel(0);
+    }
+  };
+
+  console.log(monsterLevel);
+
+  console.log(monsterDecks);
+
+  const tempMonsterDecks = [
     MonsterData.Cave_Bear,
-    MonsterData.Lurker,
-    MonsterData.Forest_Imp,
-    MonsterData.Flame_Demon,
+    // MonsterData.Lurker,
+    // MonsterData.Forest_Imp,
+    // MonsterData.Flame_Demon,
+    // MonsterData.Night_Demon,
   ];
+
+  const inScenario = true;
+
+  const activeBoard = monsterDecks.map((monster) => {
+    return (
+      <MonsterPack
+        monster={monster}
+        level={`lvl_${monsterLevel}`}
+        key={monster.name}
+      />
+    );
+  });
 
   return (
     <div className='board'>
-      {monsterDecks.map((monster) => {
-        return (
-          <MonsterPack monster={monster} level={scenarioLevel} key={monster} />
-        );
-      })}
+      <div className='levelDiv'>
+        <button className='monsterLevel' onClick={handleMonsterLevel}>
+          {monsterLevel}
+        </button>
+      </div>
+      <div className='addMonster'>
+        <AddMonster monsters={MonsterData} addDeck={addNewDeck} />
+      </div>
+      <div className='monsterDecks'>{inScenario && activeBoard}</div>
     </div>
   );
 };

@@ -1,0 +1,23 @@
+.board {
+  display: flexbox;
+  justify-content: center;
+}
+
+.addMonster {
+  width: 300px;
+  margin: auto;
+}
+
+.monsterDecks {
+  display: flex;
+}
+
+.monsterLevel {
+  font-size: 20px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin: 50px;
+  border-radius: 50%;
+  border: none;
+}

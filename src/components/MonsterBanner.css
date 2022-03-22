@@ -53,6 +53,7 @@
 
 .numbers {
   margin: auto;
+  width: 80px;
   display: flex;
   background-color: rgb(61, 61, 61);
   padding: 0 5px;
@@ -102,11 +103,8 @@
   margin-bottom: 20px;
 }
 
-.attr {
-}
-
 .normAttributes {
-  font-size: 20px;
+  font-size: 18px;
   width: 100px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -114,7 +112,7 @@
 }
 
 .eliteAttributes {
-  font-size: 20px;
+  font-size: 18px;
   width: 100px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
