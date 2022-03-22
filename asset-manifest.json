@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gloomy-monsters/static/css/main.65a3ff7e.css",
-    "main.js": "/gloomy-monsters/static/js/main.aeffd137.js",
+    "main.js": "/gloomy-monsters/static/js/main.e359b661.js",
     "static/media/PirataOne.ttf": "/gloomy-monsters/static/media/PirataOne.a83bdc7eeaae071047ce.ttf",
     "index.html": "/gloomy-monsters/index.html",
     "main.65a3ff7e.css.map": "/gloomy-monsters/static/css/main.65a3ff7e.css.map",
-    "main.aeffd137.js.map": "/gloomy-monsters/static/js/main.aeffd137.js.map"
+    "main.e359b661.js.map": "/gloomy-monsters/static/js/main.e359b661.js.map"
   },
   "entrypoints": [
     "static/css/main.65a3ff7e.css",
-    "static/js/main.aeffd137.js"
+    "static/js/main.e359b661.js"
   ]
 }
