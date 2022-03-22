@@ -5,13 +5,11 @@ import AddMonster from './AddMonster';
 import './Board.css';
 
 const Board = () => {
-  const scenarioLevel = 'lvl_4';
   const [monsterLevel, setMonsterLevel] = useState(0);
   const [monsterDecks, setMonsterDecks] = useState([]);
 
   const addNewDeck = (name) => {
     const monster = name.replace(' ', '_');
-    console.log(monster);
     setMonsterDecks((oldDeck) => [...oldDeck, MonsterData[monster]]);
   };
 
@@ -21,18 +19,6 @@ const Board = () => {
       setMonsterLevel(0);
     }
   };
-
-  console.log(monsterLevel);
-
-  console.log(monsterDecks);
-
-  const tempMonsterDecks = [
-    MonsterData.Cave_Bear,
-    // MonsterData.Lurker,
-    // MonsterData.Forest_Imp,
-    // MonsterData.Flame_Demon,
-    // MonsterData.Night_Demon,
-  ];
 
   const inScenario = true;
 
