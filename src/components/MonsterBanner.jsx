@@ -17,9 +17,9 @@ const MonsterBanner = (props) => {
 
       return (
         <div className='normRangeRet' key={ret}>
-          <img src='img/icons/retaliate.png' alt='retIcon' />
+          <img src='gloomy-monsters/img/icons/retaliate.png' alt='retIcon' />
           <span>{': ' + retNum}</span>
-          <img src='img/icons/range.png' alt='rangeIcon' />
+          <img src='gloomy-monsters/img/icons/range.png' alt='rangeIcon' />
           <span>{': ' + ranNum}</span>
         </div>
       );
@@ -35,7 +35,7 @@ const MonsterBanner = (props) => {
           <div className='normAttr' key={type}>
             <img
               className='attrIcon'
-              src={`img/icons/${type}.png`}
+              src={`gloomy-monsters/img/icons/${type}.png`}
               alt={`${type}Icon`}
             />
             <span className='attrNum'>{num}</span>
@@ -58,9 +58,9 @@ const MonsterBanner = (props) => {
       return (
         <div className='eliteRangeRet' key={ret}>
           <span>{ranNum + ' :'}</span>
-          <img src='img/icons/range.png' alt='rangeIcon' />
+          <img src='gloomy-monsters/img/icons/range.png' alt='rangeIcon' />
           <span>{retNum + ' :'}</span>
-          <img src='img/icons/retaliate.png' alt='retIcon' />
+          <img src='gloomy-monsters/img/icons/retaliate.png' alt='retIcon' />
         </div>
       );
     } else if (attr.includes('%')) {
@@ -76,7 +76,7 @@ const MonsterBanner = (props) => {
             <span className='attrNum'>{num}</span>
             <img
               className='attrIcon'
-              src={`img/icons/${type}.png`}
+              src={`gloomy-monsters/img/icons/${type}.png`}
               alt={`${type}Icon`}
             />
           </div>
@@ -90,14 +90,18 @@ const MonsterBanner = (props) => {
   return (
     <div className='monsterBanner'>
       <div>
-        <img src={`img/icons/${name}.png`} alt='icon' className='icon' />
+        <img
+          src={`gloomy-monsters/img/icons/${name}.png`}
+          alt='icon'
+          className='icon'
+        />
         <div className='monsterHeader'>
           <h2 className='level'>{monster.level}</h2>
           <h3 className='name'>{name.toUpperCase()}</h3>
           {isFlying && (
             <img
               className='flying'
-              src='img/icons/flyIcon.png'
+              src='gloomy-monsters/img/icons/flyIcon.png'
               alt='flyingicon'
             />
           )}
@@ -113,10 +117,22 @@ const MonsterBanner = (props) => {
             <p>{monster.norm.range}</p>
           </div>
           <div className='statIcons'>
-            <img src='img/icons/healthIcon.png' alt='healthIcon' />
-            <img src='img/icons/movementIcon.png' alt='movementIcon' />
-            <img src='img/icons/attackIcon.png' alt='attackIcon' />
-            <img src='img/icons/rangeIcon.png' alt='rangeIcon' />
+            <img
+              src='gloomy-monsters/img/icons/healthIcon.png'
+              alt='healthIcon'
+            />
+            <img
+              src='gloomy-monsters/img/icons/movementIcon.png'
+              alt='movementIcon'
+            />
+            <img
+              src='gloomy-monsters/img/icons/attackIcon.png'
+              alt='attackIcon'
+            />
+            <img
+              src='gloomy-monsters/img/icons/rangeIcon.png'
+              alt='rangeIcon'
+            />
           </div>
           <div className='eliteInfo'>
             <p>{monster.elite.health}</p>
