@@ -19,10 +19,7 @@ const Board = () => {
       setMonsterLevel(0);
     }
   };
-<<<<<<< HEAD
-=======
 
->>>>>>> 2fecb311e1e46ec8f101e4b74dddf6e59a57463d
   const inScenario = true;
 
   const activeBoard = monsterDecks.map((monster) => {
