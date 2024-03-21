@@ -2,6 +2,12 @@
 
 A Gloomy Companion inspired React app for managing monster health and status effects in the table top game Gloomhaven
 
+## Github Pages Link
+
+```
+https://ntpotraz.github.io/gloomy-monsters/
+```
+
 ## Current Features
 - Search through and select from every non-boss type monster in the game
 - Track the health and status of each individual monster on the board
