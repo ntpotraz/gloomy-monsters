@@ -26,12 +26,19 @@ const AddMonster = (props) => {
     );
   };
 
+  const input = document.querySelector("input");
+
   return (
     <div className='addMonster'>
       <input onChange={handleInput} type='text' placeholder='Search Monster' />
+      {
+        input.value != "" ?
       <ul className="monsterList">
         {monsterList}
       </ul>
+        :
+          null
+      }
     </div>
   );
 };
