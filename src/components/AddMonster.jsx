@@ -9,16 +9,18 @@ const AddMonster = (props) => {
   }
 
   const [searchList, setSearchList] = useState(monsterNameList);
+  const [input, setInput] = useState("");
 
   const monsterList = searchList.map((monster) => {
     return (
-      <li className='monsterListItem' onClick={() => props.addDeck(monster)} key={monster}>
+      <li onClick={() => props.addDeck(monster)} key={monster}>
         {monster}
       </li>
     );
   });
 
   const handleInput = (e) => {
+    setInput(e.target.value);
     setSearchList(
       monsterNameList.filter((monster) => {
         return monster.toLowerCase().includes(e.target.value.toLowerCase());
@@ -26,14 +28,13 @@ const AddMonster = (props) => {
     );
   };
 
-  const input = document.querySelector("input");
 
   return (
     <div className='addMonster'>
       <input onChange={handleInput} type='text' placeholder='Search Monster' />
       {
-        input.value != "" ?
-      <ul className="monsterList">
+        input != "" ?
+      <ul>
         {monsterList}
       </ul>
         :

@@ -40,12 +40,11 @@ li {
   color: black;
   cursor: default;
   padding: 3px 10px;
-  transition: transform ease-out 200ms;
-  transition: background-color ease-out 500ms;
+  border-radius: 10px;
+  transition: background-color ease-out 500ms, transform ease-out 200ms;
 }
 
 li:hover {
-  background-color: hsl(200 40%, 70%);
-  border-radius: 10px;
+  background-color: hsl(200 60%, 70%);
   transform: scale(1.1);
 }
