@@ -91,6 +91,7 @@ const MonsterBanner = (props) => {
     <div className='monsterBanner'>
       <div>
         <img src={`img/icons/${name}.png`} alt='icon' className='icon' />
+        <img src={`img/icons/${name}.png`} alt='icon' className='icon' />
         <div className='monsterHeader'>
           <h2 className='level'>{monster.level}</h2>
           <h3 className='name'>{name.toUpperCase()}</h3>
@@ -113,7 +114,7 @@ const MonsterBanner = (props) => {
             <p>{monster.norm.range}</p>
           </div>
           <div className='statIcons'>
-            <img src='img/icons/healthIcon.png' alt='healthIcon' />
+            <img src='img/icons/healthIcon.png' alt='fuck' />
             <img src='img/icons/movementIcon.png' alt='movementIcon' />
             <img src='img/icons/attackIcon.png' alt='attackIcon' />
             <img src='img/icons/rangeIcon.png' alt='rangeIcon' />

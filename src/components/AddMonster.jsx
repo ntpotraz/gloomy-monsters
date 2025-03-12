@@ -12,7 +12,7 @@ const AddMonster = (props) => {
 
   const monsterList = searchList.map((monster) => {
     return (
-      <li onClick={() => props.addDeck(monster)} key={monster}>
+      <li className='monsterListItem' onClick={() => props.addDeck(monster)} key={monster}>
         {monster}
       </li>
     );
@@ -29,7 +29,9 @@ const AddMonster = (props) => {
   return (
     <div className='addMonster'>
       <input onChange={handleInput} type='text' placeholder='Search Monster' />
-      <ul>{monsterList}</ul>
+      <ul className="monsterList">
+        {monsterList}
+      </ul>
     </div>
   );
 };
